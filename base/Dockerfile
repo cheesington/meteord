@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM --platform=linux/arm64/v8 debian:stretch
 MAINTAINER Jesse Rosenberger
 
 ENV METEORD_DIR /opt/meteord
